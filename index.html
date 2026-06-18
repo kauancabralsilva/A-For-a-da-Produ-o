@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>A Força da Produção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🌱 A Força da Produção: Alimentação Saudável 🌾</h1>
+    <p>Do campo à mesa com qualidade, sustentabilidade e respeito à natureza 🌽</p>
+</header>
+
+<!-- ACESSIBILIDADE -->
+<div class="acessibilidade">
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="aumentarBrilho()">☀️ +</button>
+    <button onclick="diminuirBrilho()">🌙 -</button>
+</div>
+
+<section class="conteudo">
+
+    <div class="card">
+        <h2>🌱 Plantio de Qualidade</h2>
+        <p>
+            O plantio de qualidade envolve o uso de sementes selecionadas 🌾,
+            preparo adequado do solo 🌱, rotação de culturas e irrigação controlada 💧.
+            Essas práticas aumentam a produtividade e preservam o meio ambiente.
+        </p>
+        <button onclick="mostrarInfo('plantio')">Saiba mais</button>
+    </div>
+
+    <div class="card">
+        <h2>🌾 Colheita</h2>
+        <p>
+            A colheita deve ser realizada no ponto ideal de maturação para garantir
+            alimentos mais nutritivos, frescos e com menor perda de qualidade.
+        </p>
+        <button onclick="mostrarInfo('colheita')">Saiba mais</button>
+    </div>
+
+    <div class="card">
+        <h2>🏡 Armazenagem</h2>
+        <p>
+            A armazenagem correta protege os alimentos da umidade, pragas e contaminação,
+            garantindo segurança alimentar e menor desperdício.
+        </p>
+        <button onclick="mostrarInfo('armazenagem')">Saiba mais</button>
+    </div>
+
+</section>
+
+<section class="extras">
+    <button onclick="mostrarCuriosidade()">🌽 Curiosidades</button>
+</section>
+
+<!-- CAIXA DE INFORMAÇÃO -->
+<div id="infoBox" class="info-box">
+    Clique em um botão para ver informações.
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
